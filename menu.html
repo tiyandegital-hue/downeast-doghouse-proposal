@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Menu — Downeast Dog House | Lubec, Maine</title>
+<meta name="description" content="A sample menu for Downeast Dog House in Lubec, Maine: classic and loaded hot dogs, sides, and drinks. The real menu is on their Facebook page.">
+<meta property="og:title" content="Sample Menu — Downeast Dog House">
+<meta property="og:description" content="Classic and loaded hot dogs, sides, and drinks — a sample of what the Dog House board could look like.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/dog-loaded.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23C63A2D'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-weight='bold' font-size='26' fill='%23FFFDF6' text-anchor='middle'%3EDD%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Franklin:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Downeast Dog House — home">
+      <span class="brand-mark" aria-hidden="true">DD</span>
+      <span class="brand-name">Downeast Dog House<small>Lubec · Maine</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" aria-current="page">Menu</a></li>
+        <li><a href="story.html">Our Story</a></li>
+        <li><a href="find-us.html">Find Us</a></li>
+        <li><a href="catering.html">Catering</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">The board</p>
+        <h1 class="page-title">Eat like you're at the edge of the map.</h1>
+        <p class="lede">This is a <strong>sample menu</strong> — the Dog House's real menu isn't published online yet. Prices deliberately left off; the real board would carry them. When the official site launches, this page updates with the genuine article.</p>
+      </div>
+
+      <div class="menu-board" data-reveal>
+        <p class="eyebrow" style="color:var(--mustard); margin-bottom:0">Downeast Dog House · Sample board</p>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab" role="tab" id="tab-dogs" aria-selected="true" aria-controls="panel-dogs">Dogs</button>
+          <button class="menu-tab" role="tab" id="tab-sides" aria-selected="false" aria-controls="panel-sides" tabindex="-1">Sides</button>
+          <button class="menu-tab" role="tab" id="tab-drinks" aria-selected="false" aria-controls="panel-drinks" tabindex="-1">Drinks</button>
+        </div>
+
+        <ul class="menu-list active" id="panel-dogs" role="tabpanel" aria-labelledby="tab-dogs">
+          <li class="menu-item">
+            <h3>The Lighthouse Classic</h3><span class="price">sample</span>
+            <p class="desc">All-beef dog, toasted split-top bun, mustard zigzag, diced onion. Simple. Correct.</p>
+          </li>
+          <li class="menu-item">
+            <h3>The Quoddy Chili Dog</h3><span class="price">sample</span>
+            <p class="desc">Loaded with chili and melted cheddar, finished with onion. The messy one. Worth it.</p>
+          </li>
+          <li class="menu-item">
+            <h3>The Easternmost</h3><span class="price">sample</span>
+            <p class="desc">The house dog, dressed the Downeast way. Ask what's on it — the answer changes with the weather.</p>
+          </li>
+          <li class="menu-item">
+            <h3>The Plain Jane</h3><span class="price">sample</span>
+            <p class="desc">Just the dog and the bun, for the purist at the table. No judgment.</p>
+          </li>
+        </ul>
+
+        <ul class="menu-list" id="panel-sides" role="tabpanel" aria-labelledby="tab-sides" hidden>
+          <li class="menu-item">
+            <h3>Sea-Salt Fries</h3><span class="price">sample</span>
+            <p class="desc">Crispy, salted, gone in minutes. The correct co-pilot for any dog.</p>
+          </li>
+          <li class="menu-item">
+            <h3>Onion Rings</h3><span class="price">sample</span>
+            <p class="desc">Beer-battered, golden, built for sharing (or not).</p>
+          </li>
+          <li class="menu-item">
+            <h3>Slaw Cup</h3><span class="price">sample</span>
+            <p class="desc">Cool, crunchy, and the responsible choice next to a chili dog.</p>
+          </li>
+        </ul>
+
+        <ul class="menu-list" id="panel-drinks" role="tabpanel" aria-labelledby="tab-drinks" hidden>
+          <li class="menu-item">
+            <h3>Fountain Sodas</h3><span class="price">sample</span>
+            <p class="desc">The classics, ice-cold. A hot dog without a cold soda is just a sandwich.</p>
+          </li>
+          <li class="menu-item">
+            <h3>Iced Tea</h3><span class="price">sample</span>
+            <p class="desc">Fresh-brewed, unsweetened by default, lemon if you ask nice.</p>
+          </li>
+          <li class="menu-item">
+            <h3>Lemonade</h3><span class="price">sample</span>
+            <p class="desc">Tart, cold, and the official drink of standing in the sun.</p>
+          </li>
+        </ul>
+
+        <p class="menu-foot">Every item above is a sample placeholder. The real menu — with real prices — belongs to the Dog House team.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="final-cta" data-reveal>
+        <h2>Allergies? Big appetite? Feeding a crew?</h2>
+        <p>The sample board is just the start. Ask the team what's actually on the grill today — or talk catering for your event.</p>
+        <div class="hero-cta" style="justify-content:center; margin-bottom:0">
+          <a class="btn" href="catering.html">Catering &amp; events <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="find-us.html">Plan your visit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Downeast Dog House — home">
+          <span class="brand-mark" aria-hidden="true">DD</span>
+          <span class="brand-name">Downeast Dog House<small>Lubec · Maine</small></span>
+        </a>
+        <p style="margin-top:18px">The easternmost hot dog in America. A concept website for a very real little stand in Lubec, Maine.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="find-us.html">Find Us</a></li>
+          <li><a href="catering.html">Catering &amp; Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Good to know</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="demo-strip">
+      <strong>Concept demo.</strong> This site was designed as a free concept for Downeast Dog House by Tiyan Digital — it is not the business's official website. All photos are AI-generated illustrations (not photos of the real shop), the menu is a sample, and hours are unconfirmed. The real Dog House lives on Facebook: search "Downeast Dog House", Lubec ME.
+    </div>
+    <div class="footer-legal">
+      <span>© <span id="year">2026</span> Downeast Dog House — concept demo.</span>
+      <nav aria-label="Legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
